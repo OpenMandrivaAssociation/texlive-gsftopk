@@ -1,3 +1,9 @@
+# revision 23089
+# category TLCore
+# catalog-ctan /fonts/utilities/gsftopk
+# catalog-date 2009-11-09 22:36:07 +0100
+# catalog-license gpl
+# catalog-version 1.19.2
 Name:		texlive-gsftopk
 Version:	1.19.2
 Release:	1
@@ -42,6 +48,7 @@ direct.
 %{_texmfdir}/dvips/gsftopk/render.ps
 %doc %{_mandir}/man1/gsftopk.1*
 %doc %{_texmfdir}/doc/man/man1/gsftopk.man1.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
 mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
