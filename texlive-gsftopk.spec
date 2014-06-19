@@ -1,4 +1,4 @@
-# revision 29764
+# revision 33736
 # category TLCore
 # catalog-ctan /fonts/utilities/gsftopk
 # catalog-date 2012-07-13 12:47:32 +0200
@@ -6,7 +6,7 @@
 # catalog-version 1.19.2
 Name:		texlive-gsftopk
 Version:	1.19.2
-Release:	9
+Release:	10
 Summary:	Convert "ghostscript fonts" to PK files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/utilities/gsftopk
