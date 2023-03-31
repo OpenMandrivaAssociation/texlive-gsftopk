@@ -1,6 +1,6 @@
 Name:		texlive-gsftopk
 Version:	52851
-Release:	1
+Release:	2
 Summary:	Convert "ghostscript fonts" to PK files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/utilities/gsftopk
