@@ -3,7 +3,7 @@ Version:	52851
 Release:	2
 Summary:	Convert "ghostscript fonts" to PK files
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/utilities/gsftopk
+URL:		https://www.ctan.org/tex-archive/fonts/utilities/gsftopk
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gsftopk.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gsftopk.doc.r%{version}.tar.xz
